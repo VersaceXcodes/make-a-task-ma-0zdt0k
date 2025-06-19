@@ -1,7 +1,7 @@
 import React from 'react';
 import { Provider as ReduxProvider } from 'react-redux';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { store } from './redux/store'; // Import without extension
+import store from './redux/store'; // Import default export
 import UV_LandingPage from './components/UV_LandingPage'; // Adjust paths
 import UV_OtherViewExample from './components/UV_OtherViewExample';
 
